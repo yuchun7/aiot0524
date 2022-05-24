@@ -1,4 +1,4 @@
-# Homework #5.01 (to huanchen1107/aiot_hw5)
+# Homework #5.02 (to huanchen1107/aiot_hw5)
 
 ## Lecture 14: IoT Flask Web (github, vs code)
 
