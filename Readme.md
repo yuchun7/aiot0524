@@ -1,4 +1,4 @@
-# New Homework #5 (to huanchen1107/aiot_hw5)
+# Homework #5.01 (to huanchen1107/aiot_hw5)
 
 ## Lecture 14: IoT Flask Web (github, vs code)
 
@@ -17,7 +17,8 @@
 
 if you want to change \
 git remote add origin https://github.com/huanchen1107/aiot0524.git \
-git branch -M main ]
+https://github.com/yuchun7/aiot0524.git \
+git branch -M main 
 git push -u origin main
 
 
