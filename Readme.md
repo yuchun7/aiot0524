@@ -15,9 +15,9 @@
    * C:> git config --global user.email huanchen1107@gmail.com
 7. C:> git remote add origin https://github.com/huanchen1107/aiot0524.git
 
-if you want to change
-git remote add origin https://github.com/huanchen1107/aiot0524.git
-git branch -M main
+if you want to change \
+git remote add origin https://github.com/huanchen1107/aiot0524.git \
+git branch -M main ]
 git push -u origin main
 
 
