@@ -35,5 +35,5 @@
 2. 新增一個資料夾名稱為 static
 3. 撰寫程式碼
 
-<font color='#4169e1'>@route</font> 在 Flask 當中便是我們用於註冊網址的函式。
+<font color='#4169e1'>@route</font> 在 Flask 當中便是我們用於註冊網址的函式。\
 <font color='#4169e1'>@route(<font color='#ff6347'>' / '</font>)</font> 便是我們註冊的網址，網址直接就是我們寫好程式的「根目錄」。
