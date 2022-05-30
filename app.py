@@ -20,11 +20,9 @@ def data():
     return jsonify(seq)
  
 
-
 @app.route("/")
-def index():
-    return render_template('index.html')
- 
+def noAI():
+    return render_template('indexNoAI.html')    
 
 @app.route("/setRandom")
 def getData():
@@ -46,7 +44,9 @@ def getData():
     c = conn.cursor()
  
 
-    #====== 執行 MySQL 查詢指令 ======#
+    c.execute("update sensors set value = RAND()*1000 where true")
+    conn.commit()
+    
     c.execute("SELECT * FROM sensors")
 
     #====== 取回所有查詢結果 ======#

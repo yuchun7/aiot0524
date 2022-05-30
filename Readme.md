@@ -13,3 +13,4 @@ update sensors set value = RAND()*1000 where true
 SELECT * FROM sensors
 ```
 4. Step 4與Step 3畫出的Highchart的差別在於，由於Step 4是由打亂的value畫出的，value和status的相關性已經被打亂，所以綠色和紅色的點不再像Step 3一樣整齊。若是想要得到與value正確相應的status值，以畫出整齊的Highchart，則需藉由Step 5的模型來達成。
+
