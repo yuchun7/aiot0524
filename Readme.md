@@ -64,6 +64,6 @@
     ```
 5. 最後用預測出的 status 值更新 sensor 資料表，並 return 整個 dataframe 回 indexAI.html，就可以畫出如下圖所示經由 AI model 整理過後的 Highchart。
 
-    ![](https://i.imgur.com/1Ljc8rL.jpg)
+    ![](https://i.imgur.com/rpe0uQS.png)
 
 
