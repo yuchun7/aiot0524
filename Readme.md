@@ -21,5 +21,6 @@
 4. 接著，來到了這個步驟的主要目的：藉由資料表裡的value及status數據畫出Highchart。利用app.py中的SQL code，如下，就能夠取出資料表內全部的數值，再將這些取到的數值傳送至index.html，將time數據當作X軸，value數據當作Y軸，就能畫出Highchart了。另外，status=1時，數值的點為綠色，status=0時，數值的點為紅色。
 ```sql
 SELECT * FROM sensors
+```
 
 ![](https://i.imgur.com/nn3n0eS.png)
